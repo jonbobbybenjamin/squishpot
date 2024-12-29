@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creature Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Main container -->
+    <div class="container">
+
+        <!-- Header container -->
+        <div class="header-container">
+            <h1>Generate a creature</h1>
+        </div>
+
+        <!-- Dropdowns container -->
+        <div class="dropdowns-container">
+            <!-- Head dropdown -->
+            <label for="head">Head:</label>
+            <select id="head" class="dropdown">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">horned helm</option>
+                <option value="2">face palm</option>
+                <option value="3">boarish muzzle</option>
+                <option value="3">beaked demon</option>
+            </select>
+
+            <!-- Arms dropdown -->
+            <label for="arms">Arms:</label>
+            <select id="arms" class="dropdown">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </select>
+
+            <!-- Torso dropdown -->
+            <label for="torso">Torso:</label>
+            <select id="torso" class="dropdown">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </select>
+
+            <!-- Legs dropdown -->
+            <label for="legs">Legs:</label>
+            <select id="legs" class="dropdown">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </select>
+
+            <!-- Followers dropdown -->
+            <label for="followers">Followers:</label>
+            <select id="followers" class="dropdown">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">cultists</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </select>
+
+            <!-- Hue dropdown -->
+            <label for="hue">Hue:</label>
+            <select id="hue" class="dropdown">
+                <option value="" disabled selected>Please select</option>
+                <option value="1">Value 1</option>
+                <option value="2">Value 2</option>
+                <option value="3">Value 3</option>
+            </select>
+        </div>
+        <p></p>
+
+        <!-- Button container -->
+        <div class="button-container">
+            <button id="show-creature" disabled>Show my creature</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
